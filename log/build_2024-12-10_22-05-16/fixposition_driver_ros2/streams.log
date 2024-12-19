@@ -1,0 +1,61 @@
+[0.018s] Invoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_ros2': AMENT_PREFIX_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs:/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib:/home/orin/ATDS-24/install/zed_ros2:/home/orin/ATDS-24/install/zed_wrapper:/home/orin/ATDS-24/install/slam_delporcodio:/home/orin/ATDS-24/install/zed_msgs:/home/orin/ATDS-24/install/detection_node:/home/orin/ATDS-24/install/zed_components:/home/orin/ATDS-24/install/zed_interfaces:/home/orin/ATDS-24/install/xsens_mti_ros2_driver:/home/orin/ATDS-24/install/sysmonitor_interfaces:/home/orin/ATDS-24/install/slam_msgs:/home/orin/ATDS-24/install/nmpc_interfaces:/home/orin/ATDS-24/install/path_interfaces:/home/orin/ATDS-24/install/odom_publisher:/home/orin/ATDS-24/install/ntrip:/home/orin/ATDS-24/install/missions:/home/orin/ATDS-24/install/control_msgs:/home/orin/ATDS-24/install/can_manager:/home/orin/ATDS-24/install/can_msgs:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib:/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/pkgconfig PYTHONPATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros2 -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros2
+[0.096s] -- The C compiler identification is GNU 12.1.0
+[0.170s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.276s] -- Detecting C compiler ABI info - done
+[0.287s] -- Check for working C compiler: /home/orin/miniconda3/bin/cc - skipped
+[0.287s] -- Detecting C compile features
+[0.287s] -- Detecting C compile features - done
+[0.292s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.411s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.434s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: date_time 
+[0.452s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.129s] -- Found Python3: /home/orin/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[1.345s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.408s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.419s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.434s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.580s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.608s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.628s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.716s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.724s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.885s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.927s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.993s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.014s] -- Looking for pthread.h
+[2.116s] -- Looking for pthread.h - found
+[2.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.218s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.219s] -- Looking for pthread_create in pthreads
+[2.308s] -- Looking for pthread_create in pthreads - not found
+[2.308s] -- Looking for pthread_create in pthread
+[2.407s] -- Looking for pthread_create in pthread - found
+[2.408s] -- Found Threads: TRUE  
+[2.479s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[2.501s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.661s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.669s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.688s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.690s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.690s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.693s] -- Found rtcm_msgs: 1.1.6 (/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake)
+[3.561s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.445s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.475s] -- Found PythonInterp: /home/orin/miniconda3/bin/python3 (found suitable version "3.12.2", minimum required is "3.6") 
+[4.479s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.510s] -- Found PythonLibs: /home/orin/miniconda3/lib/libpython3.12.so (found suitable version "3.12.2", minimum required is "3.5") 
+[4.510s] -- Using PYTHON_EXECUTABLE: /home/orin/miniconda3/bin/python3
+[4.510s] -- Using PYTHON_INCLUDE_DIRS: /home/orin/miniconda3/include/python3.12
+[4.510s] -- Using PYTHON_LIBRARIES: /home/orin/miniconda3/lib/libpython3.12.so
+[4.545s] -- Found PythonExtra: .so  
+[4.781s] -- Using numpy include directory: /home/orin/miniconda3/lib/python3.12/site-packages/numpy/_core/include
+[4.832s] -- Configuring done
+[5.020s] -- Generating done
+[5.051s] -- Build files have been written to: /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_ros2

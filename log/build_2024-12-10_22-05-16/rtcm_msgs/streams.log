@@ -1,0 +1,231 @@
+[0.019s] Invoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/rtcm_msgs -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs
+[0.125s] -- The C compiler identification is GNU 12.1.0
+[0.201s] -- The CXX compiler identification is GNU 11.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /home/orin/miniconda3/bin/cc - skipped
+[0.320s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.325s] -- Detecting CXX compiler ABI info
+[0.453s] -- Detecting CXX compiler ABI info - done
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.464s] -- Detecting CXX compile features
+[0.464s] -- Detecting CXX compile features - done
+[0.484s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[0.492s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.913s] -- Found Python3: /home/orin/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[2.744s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.774s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.820s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.105s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.521s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[4.533s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[4.549s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[4.563s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.998s] -- Found PythonInterp: /home/orin/miniconda3/bin/python3 (found suitable version "3.12.2", minimum required is "3.6") 
+[6.004s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.088s] -- Found PythonLibs: /home/orin/miniconda3/lib/libpython3.12.so (found suitable version "3.12.2", minimum required is "3.5") 
+[6.088s] -- Using PYTHON_EXECUTABLE: /home/orin/miniconda3/bin/python3
+[6.089s] -- Using PYTHON_INCLUDE_DIRS: /home/orin/miniconda3/include/python3.12
+[6.089s] -- Using PYTHON_LIBRARIES: /home/orin/miniconda3/lib/libpython3.12.so
+[6.198s] -- Found PythonExtra: .so  
+[6.899s] -- Using numpy include directory: /home/orin/miniconda3/lib/python3.12/site-packages/numpy/_core/include
+[6.970s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[6.987s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[7.058s] -- Configuring done
+[7.212s] -- Generating done
+[7.261s] -- Build files have been written to: /home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs
+[7.302s] Invoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/rtcm_msgs -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs
+[7.318s] Invoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs -- -j12 -l12
+[7.577s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.624s] [  3%] Built target ament_cmake_python_copy_rtcm_msgs
+[7.657s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.166s] running egg_info
+[8.169s] creating rtcm_msgs.egg-info
+[8.199s] writing rtcm_msgs.egg-info/PKG-INFO
+[8.200s] writing dependency_links to rtcm_msgs.egg-info/dependency_links.txt
+[8.201s] writing top-level names to rtcm_msgs.egg-info/top_level.txt
+[8.201s] writing manifest file 'rtcm_msgs.egg-info/SOURCES.txt'
+[8.268s] [  9%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rtcm_msgs/msg/detail/message__functions.c.o[0m
+[8.361s] reading manifest file 'rtcm_msgs.egg-info/SOURCES.txt'
+[8.363s] writing manifest file 'rtcm_msgs.egg-info/SOURCES.txt'
+[8.364s] [  9%] Built target rtcm_msgs__cpp
+[8.432s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.442s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.470s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.514s] [ 22%] [32m[1mLinking C shared library librtcm_msgs__rosidl_generator_c.so[0m
+[8.604s] [ 22%] Built target ament_cmake_python_build_rtcm_msgs_egg
+[8.724s] [ 22%] Built target rtcm_msgs__rosidl_generator_c
+[8.789s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.813s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.815s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.991s] [ 35%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtcm_msgs/msg/message__type_support.cpp.o[0m
+[9.387s] [ 38%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtcm_msgs/msg/message__type_support.cpp.o[0m
+[9.467s] [ 41%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtcm_msgs/msg/detail/dds_fastrtps/message__type_support.cpp.o[0m
+[9.477s] [ 45%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtcm_msgs/msg/detail/message__type_support.cpp.o[0m
+[9.552s] [ 48%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_c.so[0m
+[9.640s] [ 51%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtcm_msgs/msg/detail/message__type_support.c.o[0m
+[9.666s] [ 54%] [32mBuilding CXX object CMakeFiles/rtcm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtcm_msgs/msg/detail/message__type_support_c.cpp.o[0m
+[9.767s] [ 58%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_cpp.so[0m
+[9.813s] [ 58%] Built target rtcm_msgs__rosidl_typesupport_c
+[9.830s] [ 61%] [32m[1mLinking C shared library librtcm_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.965s] [ 61%] Built target rtcm_msgs__rosidl_typesupport_cpp
+[10.029s] [ 61%] Built target rtcm_msgs__rosidl_typesupport_introspection_c
+[10.479s] [ 64%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.494s] [ 67%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.567s] [ 70%] [32m[1mLinking CXX shared library librtcm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.651s] [ 70%] Built target rtcm_msgs__rosidl_typesupport_fastrtps_c
+[10.671s] [ 70%] Built target rtcm_msgs__rosidl_typesupport_introspection_cpp
+[10.749s] [ 70%] Built target rtcm_msgs__rosidl_typesupport_fastrtps_cpp
+[10.788s] [ 70%] Built target rtcm_msgs
+[10.831s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.984s] [ 74%] Built target rtcm_msgs__py
+[12.142s] [ 77%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rtcm_msgs/msg/_message_s.c.o[0m
+[12.640s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rtcm_msgs/librtcm_msgs__rosidl_generator_py.so[0m
+[12.885s] [ 80%] Built target rtcm_msgs__rosidl_generator_py
+[13.036s] [ 83%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.060s] [ 87%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.069s] [ 90%] [32mBuilding C object CMakeFiles/rtcm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.304s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-312-aarch64-linux-gnu.so[0m
+[13.425s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_c.cpython-312-aarch64-linux-gnu.so[0m
+[13.478s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_introspection_c.cpython-312-aarch64-linux-gnu.so[0m
+[13.522s] [100%] Built target rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[13.631s] [100%] Built target rtcm_msgs__rosidl_typesupport_c__pyext
+[13.694s] [100%] Built target rtcm_msgs__rosidl_typesupport_introspection_c__pyext
+[13.760s] Invoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs -- -j12 -l12
+[13.791s] Invoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs
+[13.835s] -- Install configuration: ""
+[13.836s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/ament_index/resource_index/rosidl_interfaces/rtcm_msgs
+[13.838s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[13.839s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[13.839s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/message.h
+[13.845s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.847s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[13.847s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__type_support.h
+[13.849s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__functions.h
+[13.850s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__functions.c
+[13.852s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__struct.h
+[13.854s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/library_path.sh
+[13.869s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/library_path.dsv
+[13.870s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_generator_c.so
+[13.875s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_generator_c.so" to ""
+[13.875s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[13.875s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[13.876s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.877s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[13.878s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__rosidl_typesupport_fastrtps_c.h
+[13.879s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_fastrtps_c.so
+[13.882s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.883s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[13.883s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[13.883s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/message.hpp
+[13.884s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[13.885s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__builder.hpp
+[13.886s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__struct.hpp
+[13.888s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__traits.hpp
+[13.889s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[13.890s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[13.890s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.892s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[13.892s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__rosidl_typesupport_fastrtps_cpp.hpp
+[13.893s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/dds_fastrtps
+[13.893s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.894s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.894s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[13.894s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[13.895s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.895s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[13.895s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__rosidl_typesupport_introspection_c.h
+[13.895s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__type_support.c
+[13.895s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_introspection_c.so
+[13.896s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.896s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_c.so
+[13.896s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_c.so" to ""
+[13.896s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs
+[13.896s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg
+[13.897s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail
+[13.897s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__type_support.cpp
+[13.897s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/include/rtcm_msgs/rtcm_msgs/msg/detail/message__rosidl_typesupport_introspection_cpp.hpp
+[13.897s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_introspection_cpp.so
+[13.905s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.905s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_cpp.so
+[13.913s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_typesupport_cpp.so" to ""
+[13.914s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/pythonpath.sh
+[13.915s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/pythonpath.dsv
+[13.915s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs-1.1.6-py3.12.egg-info
+[13.916s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs-1.1.6-py3.12.egg-info/dependency_links.txt
+[13.917s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs-1.1.6-py3.12.egg-info/top_level.txt
+[13.917s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs-1.1.6-py3.12.egg-info/PKG-INFO
+[13.917s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs-1.1.6-py3.12.egg-info/SOURCES.txt
+[13.917s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs
+[13.917s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/librtcm_msgs__rosidl_generator_py.so
+[13.918s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.918s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.918s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_introspection_c.cpython-312-aarch64-linux-gnu.so
+[13.918s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-312-aarch64-linux-gnu.so
+[13.919s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/_rtcm_msgs_s.ep.rosidl_typesupport_c.c
+[13.919s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/msg
+[13.919s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/msg/_message_s.c
+[13.919s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/msg/_message.py
+[13.920s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/msg/__init__.py
+[13.920s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_c.cpython-312-aarch64-linux-gnu.so
+[13.920s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/__init__.py
+[14.127s] Listing '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs'...
+[14.127s] Compiling '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/__init__.py'...
+[14.127s] Listing '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/msg'...
+[14.128s] Compiling '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/msg/__init__.py'...
+[14.128s] Compiling '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/msg/_message.py'...
+[14.161s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-312-aarch64-linux-gnu.so
+[14.162s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-312-aarch64-linux-gnu.so" to ""
+[14.162s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_introspection_c.cpython-312-aarch64-linux-gnu.so
+[14.163s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_introspection_c.cpython-312-aarch64-linux-gnu.so" to ""
+[14.163s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_c.cpython-312-aarch64-linux-gnu.so
+[14.164s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages/rtcm_msgs/rtcm_msgs_s__rosidl_typesupport_c.cpython-312-aarch64-linux-gnu.so" to ""
+[14.164s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_generator_py.so
+[14.164s] -- Set runtime path of "/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/librtcm_msgs__rosidl_generator_py.so" to ""
+[14.164s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/msg/Message.idl
+[14.165s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/msg/Message.msg
+[14.165s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/ament_index/resource_index/package_run_dependencies/rtcm_msgs
+[14.165s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/ament_index/resource_index/parent_prefix_path/rtcm_msgs
+[14.166s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/ament_prefix_path.sh
+[14.166s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/ament_prefix_path.dsv
+[14.166s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/path.sh
+[14.166s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/environment/path.dsv
+[14.167s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/local_setup.bash
+[14.167s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/local_setup.sh
+[14.167s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/local_setup.zsh
+[14.167s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/local_setup.dsv
+[14.167s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.dsv
+[14.168s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/ament_index/resource_index/packages/rtcm_msgs
+[14.168s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_cExport.cmake
+[14.168s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.168s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.169s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.169s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_cppExport.cmake
+[14.169s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.169s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.170s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.170s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.170s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_cExport.cmake
+[14.170s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.170s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.171s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.171s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_cppExport.cmake
+[14.171s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.171s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_pyExport.cmake
+[14.171s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/export_rtcm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.172s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rosidl_cmake-extras.cmake
+[14.172s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.172s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.172s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.172s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.173s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.173s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.173s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgsConfig.cmake
+[14.173s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/cmake/rtcm_msgsConfig-version.cmake
+[14.173s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.xml
+[14.201s] Invoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs

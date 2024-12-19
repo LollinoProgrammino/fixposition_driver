@@ -1,0 +1,85 @@
+[0.022s] Invoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_lib -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.181s] -- Detecting CXX compiler ABI info
+[0.296s] -- Detecting CXX compiler ABI info - done
+[0.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.324s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0")  
+[0.339s] -- Configuring done
+[0.347s] -- Generating done
+[0.349s] -- Build files have been written to: /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib
+[0.354s] Invoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_lib -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib
+[0.357s] Invoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib -- -j12 -l12
+[0.428s] [  6%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/eoe.cpp.o[0m
+[0.429s] [  6%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/imubias.cpp.o[0m
+[0.429s] [ 13%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/odometry.cpp.o[0m
+[0.429s] [ 13%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/gnsscorr.cpp.o[0m
+[0.429s] [ 17%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/llh.cpp.o[0m
+[0.430s] [ 20%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/odomenu.cpp.o[0m
+[0.431s] [ 27%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/gnssant.cpp.o[0m
+[0.431s] [ 31%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/odomsh.cpp.o[0m
+[0.431s] [ 31%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/rawimu.cpp.o[0m
+[0.433s] [ 34%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/corrimu.cpp.o[0m
+[0.435s] [ 37%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/text.cpp.o[0m
+[0.437s] [ 41%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/odomstatus.cpp.o[0m
+[7.678s] [ 44%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/tf.cpp.o[0m
+[7.697s] [ 48%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/fpa/tp.cpp.o[0m
+[7.715s] [ 51%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/gpgga.cpp.o[0m
+[7.788s] [ 55%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/gpgll.cpp.o[0m
+[7.887s] [ 58%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/gngsa.cpp.o[0m
+[7.948s] [ 62%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/gxgsv.cpp.o[0m
+[7.958s] [ 68%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/gphdt.cpp.o[0m
+[7.959s] [ 68%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/gpgst.cpp.o[0m
+[8.049s] [ 72%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/gprmc.cpp.o[0m
+[8.091s] [ 75%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/gpvtg.cpp.o[0m
+[8.100s] [ 79%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/gpzda.cpp.o[0m
+[8.703s] [ 82%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/messages/nmea/nmea.cpp.o[0m
+[15.521s] [ 86%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/fixposition_driver.cpp.o[0m
+[15.634s] [ 89%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/helper.cpp.o[0m
+[15.697s] [ 93%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/parser.cpp.o[0m
+[15.835s] [ 96%] [32mBuilding CXX object CMakeFiles/fixposition_driver_lib.dir/src/gnss_tf.cpp.o[0m
+[24.410s] [100%] [32m[1mLinking CXX shared library libfixposition_driver_lib.so[0m
+[24.583s] [100%] Built target fixposition_driver_lib
+[24.601s] Invoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib -- -j12 -l12
+[24.603s] Invoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib
+[24.615s] -- Install configuration: "Release"
+[24.615s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include
+[24.615s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib
+[24.615s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/params.hpp
+[24.615s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages
+[24.615s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/msg_data.hpp
+[24.616s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/nmea_type.hpp
+[24.616s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/fpb_measurements.hpp
+[24.616s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/fpa_type.hpp
+[24.616s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/base_converter.hpp
+[24.616s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/fpb_type.hpp
+[24.616s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/messages/nov_type.hpp
+[24.616s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/fixposition_driver.hpp
+[24.617s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/time_conversions.hpp
+[24.617s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/gnss_tf.hpp
+[24.617s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/helper.hpp
+[24.617s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/./include/fixposition_driver_lib/parser.hpp
+[24.617s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/libfixposition_driver_lib.so
+[24.619s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/libfixposition_driver_lib.so
+[24.619s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-targets.cmake
+[24.619s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-targets-release.cmake
+[24.619s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib
+[24.619s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/params.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/msg_data.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/nmea_type.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/fpb_measurements.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/fpa_type.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/base_converter.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/fpb_type.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/messages/nov_type.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/fixposition_driver.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/time_conversions.hpp
+[24.620s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/gnss_tf.hpp
+[24.621s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/helper.hpp
+[24.621s] -- Up-to-date: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/include/fixposition_driver_lib/parser.hpp
+[24.621s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.xml
+[24.621s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-config.cmake
+[24.621s] -- Installing: /home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/cmake/fixposition_driver_lib/fixposition_driver_lib-config-version.cmake
+[24.623s] Invoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib

@@ -1,0 +1,297 @@
+[0.180s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.181s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9211e140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff92353940>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff92353940>>)[0m
+[0.481s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.481s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.481s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.481s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.481s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.481s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.481s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/orin/ATDS-24/SDK/fixposition_driver'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.518s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.518s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.518s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.518s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.518s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.518s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_lib) by extension 'ignore'
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_lib) by extension 'ignore_ament_install'
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_lib) by extensions ['colcon_pkg']
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_lib) by extension 'colcon_pkg'
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_lib) by extensions ['colcon_meta']
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_lib) by extension 'colcon_meta'
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_lib) by extensions ['ros']
+[0.519s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_lib) by extension 'ros'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'fixposition_driver_lib' with type 'ros.cmake' and name 'fixposition_driver_lib'[0m
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros1) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros1) by extension 'ignore'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros1) by extension 'ignore_ament_install'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros1) by extensions ['colcon_pkg']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros1) by extension 'colcon_pkg'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros1) by extensions ['colcon_meta']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros1) by extension 'colcon_meta'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros1) by extensions ['ros']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros1) by extension 'ros'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'fixposition_driver_ros1' with type 'ros.catkin' and name 'fixposition_driver_ros1'[0m
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros2) by extension 'ignore'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros2) by extension 'ignore_ament_install'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros2) by extensions ['colcon_pkg']
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros2) by extension 'colcon_pkg'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros2) by extensions ['colcon_meta']
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros2) by extension 'colcon_meta'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros2) by extensions ['ros']
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_driver_ros2) by extension 'ros'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'fixposition_driver_ros2' with type 'ros.ament_cmake' and name 'fixposition_driver_ros2'[0m
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros1) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros1) by extension 'ignore'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros1) by extension 'ignore_ament_install'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros1) by extensions ['colcon_pkg']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros1) by extension 'colcon_pkg'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros1) by extensions ['colcon_meta']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros1) by extension 'colcon_meta'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros1) by extensions ['ros']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros1) by extension 'ros'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'fixposition_odometry_converter_ros1' with type 'ros.catkin' and name 'fixposition_odometry_converter_ros1'[0m
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros2) by extension 'ignore'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros2) by extension 'ignore_ament_install'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros2) by extensions ['colcon_pkg']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros2) by extension 'colcon_pkg'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros2) by extensions ['colcon_meta']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros2) by extension 'colcon_meta'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros2) by extensions ['ros']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(fixposition_odometry_converter_ros2) by extension 'ros'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'fixposition_odometry_converter_ros2' with type 'ros.ament_cmake' and name 'fixposition_odometry_converter_ros2'[0m
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rtcm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rtcm_msgs) by extension 'ignore'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rtcm_msgs) by extension 'ignore_ament_install'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rtcm_msgs) by extensions ['colcon_pkg']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rtcm_msgs) by extension 'colcon_pkg'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rtcm_msgs) by extensions ['colcon_meta']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rtcm_msgs) by extension 'colcon_meta'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rtcm_msgs) by extensions ['ros']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rtcm_msgs) by extension 'ros'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'rtcm_msgs' with type 'ros.ament_cmake' and name 'rtcm_msgs'[0m
+[0.545s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.545s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.545s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.545s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.545s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.572s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.572s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.576s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 22 installed packages in /home/orin/ATDS-24/install[0m
+[0.578s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 299 installed packages in /opt/ros/humble[0m
+[0.580s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_lib' build argument 'cmake_args' from command line to 'None'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_lib' build argument 'cmake_target' from command line to 'None'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_lib' build argument 'cmake_clean_first' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_lib' build argument 'cmake_force_configure' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_lib' build argument 'ament_cmake_args' from command line to 'None'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fixposition_driver_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib', 'merge_install': False, 'path': '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_lib', 'symlink_install': False, 'test_result_base': None}[0m
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rtcm_msgs' build argument 'cmake_args' from command line to 'None'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rtcm_msgs' build argument 'cmake_target' from command line to 'None'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rtcm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rtcm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rtcm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rtcm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rtcm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rtcm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rtcm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'rtcm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs', 'merge_install': False, 'path': '/home/orin/ATDS-24/SDK/fixposition_driver/rtcm_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros1' build argument 'cmake_args' from command line to 'None'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros1' build argument 'cmake_target' from command line to 'None'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros1' build argument 'cmake_clean_first' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros1' build argument 'cmake_force_configure' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros1' build argument 'ament_cmake_args' from command line to 'None'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fixposition_driver_ros1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_ros1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1', 'merge_install': False, 'path': '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros1', 'symlink_install': False, 'test_result_base': None}[0m
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros2' build argument 'cmake_args' from command line to 'None'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros2' build argument 'cmake_target' from command line to 'None'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_driver_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fixposition_driver_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros2', 'merge_install': False, 'path': '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros1' build argument 'cmake_args' from command line to 'None'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros1' build argument 'cmake_target' from command line to 'None'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros1' build argument 'cmake_clean_first' from command line to 'False'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros1' build argument 'cmake_force_configure' from command line to 'False'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros1' build argument 'ament_cmake_args' from command line to 'None'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fixposition_odometry_converter_ros1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_odometry_converter_ros1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_odometry_converter_ros1', 'merge_install': False, 'path': '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_odometry_converter_ros1', 'symlink_install': False, 'test_result_base': None}[0m
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros2' build argument 'cmake_args' from command line to 'None'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros2' build argument 'cmake_target' from command line to 'None'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.640s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.641s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.641s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fixposition_odometry_converter_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.641s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fixposition_odometry_converter_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_odometry_converter_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_odometry_converter_ros2', 'merge_install': False, 'path': '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_odometry_converter_ros2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.641s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.643s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.643s] [34mcolcon.colcon_ros.task.cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_lib' with build type 'cmake'
+[0.643s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_lib'
+[0.647s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.647s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.654s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/ATDS-24/SDK/fixposition_driver/rtcm_msgs' with build type 'ament_cmake'
+[0.654s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/ATDS-24/SDK/fixposition_driver/rtcm_msgs'
+[0.654s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.666s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_lib -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib[0m
+[0.673s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/rtcm_msgs -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs[0m
+[0.998s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_lib -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib[0m
+[1.000s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib -- -j12 -l12[0m
+[7.956s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/rtcm_msgs -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs[0m
+[7.972s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs -- -j12 -l12[0m
+[14.415s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs -- -j12 -l12[0m
+[14.445s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs[0m
+[14.847s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rtcm_msgs)
+[14.852s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs' for CMake module files
+[14.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs' for CMake config files
+[14.854s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rtcm_msgs', 'cmake_prefix_path')
+[14.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.ps1'
+[14.855s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orin/ATDS-24/SDK/fixposition_driver/build/rtcm_msgs[0m
+[14.857s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.dsv'
+[14.859s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.sh'
+[14.865s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib'
+[14.866s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rtcm_msgs', 'ld_library_path_lib')
+[14.866s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.ps1'
+[14.867s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.dsv'
+[14.868s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.sh'
+[14.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/bin'
+[14.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/pkgconfig/rtcm_msgs.pc'
+[14.870s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.10/site-packages'
+[14.870s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/bin'
+[14.871s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.ps1'
+[14.890s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.dsv'
+[14.892s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.sh'
+[14.894s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.bash'
+[14.896s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.zsh'
+[14.897s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/colcon-core/packages/rtcm_msgs)
+[14.907s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rtcm_msgs)
+[14.907s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs' for CMake module files
+[14.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs' for CMake config files
+[14.910s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rtcm_msgs', 'cmake_prefix_path')
+[14.910s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.ps1'
+[14.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.dsv'
+[14.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.sh'
+[14.914s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib'
+[14.914s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rtcm_msgs', 'ld_library_path_lib')
+[14.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.ps1'
+[14.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.dsv'
+[14.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.sh'
+[14.917s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/bin'
+[14.917s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/pkgconfig/rtcm_msgs.pc'
+[14.918s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.10/site-packages'
+[14.918s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/bin'
+[14.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.ps1'
+[14.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.dsv'
+[14.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.sh'
+[14.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.bash'
+[14.946s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/rtcm_msgs/package.zsh'
+[14.948s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/share/colcon-core/packages/rtcm_msgs)
+[25.245s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib -- -j12 -l12[0m
+[25.247s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib[0m
+[25.267s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_lib[0m
+[25.267s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fixposition_driver_lib', 'pkg_config_path')
+[25.268s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/pkg_config_path.ps1'
+[25.268s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/pkg_config_path.dsv'
+[25.269s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/pkg_config_path.sh'
+[25.271s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fixposition_driver_lib)
+[25.272s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib' for CMake module files
+[25.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib' for CMake config files
+[25.273s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fixposition_driver_lib', 'cmake_prefix_path')
+[25.273s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/cmake_prefix_path.ps1'
+[25.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/cmake_prefix_path.dsv'
+[25.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/cmake_prefix_path.sh'
+[25.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib'
+[25.275s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fixposition_driver_lib', 'ld_library_path_lib')
+[25.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/ld_library_path_lib.ps1'
+[25.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/ld_library_path_lib.dsv'
+[25.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/hook/ld_library_path_lib.sh'
+[25.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/bin'
+[25.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/pkgconfig/fixposition_driver_lib.pc'
+[25.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/python3.10/site-packages'
+[25.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/bin'
+[25.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.ps1'
+[25.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.dsv'
+[25.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.sh'
+[25.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.bash'
+[25.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/fixposition_driver_lib/package.zsh'
+[25.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/share/colcon-core/packages/fixposition_driver_lib)
+[25.281s] [34mcolcon.colcon_ros.task.catkin.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros1' with build type 'catkin'
+[25.282s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros1'
+[25.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.282s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[25.289s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros2' with build type 'ament_cmake'
+[25.289s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros2'
+[25.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.289s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[25.301s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_ros1': AMENT_PREFIX_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs:/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib:/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/pkgconfig PYTHONPATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1[0m
+[25.307s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_ros2': AMENT_PREFIX_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs:/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib:/home/orin/ATDS-24/install/zed_ros2:/home/orin/ATDS-24/install/zed_wrapper:/home/orin/ATDS-24/install/slam_delporcodio:/home/orin/ATDS-24/install/zed_msgs:/home/orin/ATDS-24/install/detection_node:/home/orin/ATDS-24/install/zed_components:/home/orin/ATDS-24/install/zed_interfaces:/home/orin/ATDS-24/install/xsens_mti_ros2_driver:/home/orin/ATDS-24/install/sysmonitor_interfaces:/home/orin/ATDS-24/install/slam_msgs:/home/orin/ATDS-24/install/nmpc_interfaces:/home/orin/ATDS-24/install/path_interfaces:/home/orin/ATDS-24/install/odom_publisher:/home/orin/ATDS-24/install/ntrip:/home/orin/ATDS-24/install/missions:/home/orin/ATDS-24/install/control_msgs:/home/orin/ATDS-24/install/can_manager:/home/orin/ATDS-24/install/can_msgs:/home/orin/ATDS-24/install/system_monitor:/home/orin/ATDS-24/install/path_pkg:/home/orin/ATDS-24/install/nmpc_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib:/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/pkgconfig PYTHONPATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros2 -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros2[0m
+[25.562s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/orin/ATDS-24/SDK/fixposition_driver/build/fixposition_driver_ros1' returned '1': AMENT_PREFIX_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs:/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib:/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_lib/lib/pkgconfig PYTHONPATH=/home/orin/ATDS-24/SDK/fixposition_driver/install/rtcm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orin/ATDS-24/SDK/fixposition_driver/fixposition_driver_ros1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1[0m
+[25.579s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fixposition_driver_ros1)
+[25.579s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1' for CMake module files
+[25.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1' for CMake config files
+[25.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/bin'
+[25.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/lib/pkgconfig/fixposition_driver_ros1.pc'
+[25.581s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/lib/python3.10/site-packages'
+[25.581s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/bin'
+[25.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/share/fixposition_driver_ros1/package.ps1'
+[25.582s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/share/fixposition_driver_ros1/package.dsv'
+[25.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/share/fixposition_driver_ros1/package.sh'
+[25.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/share/fixposition_driver_ros1/package.bash'
+[25.584s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/share/fixposition_driver_ros1/package.zsh'
+[25.584s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/orin/ATDS-24/SDK/fixposition_driver/install/fixposition_driver_ros1/share/colcon-core/packages/fixposition_driver_ros1)
+[30.380s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[30.380s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[30.381s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[30.381s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[30.393s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.393s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.393s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[30.415s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[30.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orin/ATDS-24/SDK/fixposition_driver/install/local_setup.ps1'
+[30.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/orin/ATDS-24/SDK/fixposition_driver/install/_local_setup_util_ps1.py'
+[30.419s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orin/ATDS-24/SDK/fixposition_driver/install/setup.ps1'
+[30.422s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orin/ATDS-24/SDK/fixposition_driver/install/local_setup.sh'
+[30.423s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/orin/ATDS-24/SDK/fixposition_driver/install/_local_setup_util_sh.py'
+[30.424s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orin/ATDS-24/SDK/fixposition_driver/install/setup.sh'
+[30.428s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orin/ATDS-24/SDK/fixposition_driver/install/local_setup.bash'
+[30.429s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orin/ATDS-24/SDK/fixposition_driver/install/setup.bash'
+[30.432s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/orin/ATDS-24/SDK/fixposition_driver/install/local_setup.zsh'
+[30.433s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/orin/ATDS-24/SDK/fixposition_driver/install/setup.zsh'
